@@ -31,7 +31,7 @@ export const getPrCount = repoUrl =>
     getResourcesCount(`${baseApiUrl}/${repoUrl}/pullrequests`)
 
 export const getBranchesCount = repoUrl =>
-    getResourcesCount(`${baseApiUrl}/${repoUrl}/refs/branches`)
+    getResourcesCount(`${baseApiUrl}/${repoUrl}/branches`)
 
 export const addBadge = (a, resourcesCount) => {
     const div = a.parentNode
